@@ -8,7 +8,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Technologio</h3>
             <p className="text-sm text-muted-foreground">
-              Creating digital solutions for tomorrow's challenges.
+              Creating digital solutions for tomorrow&apos;s challenges.
             </p>
           </div>
           <div>

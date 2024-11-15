@@ -11,12 +11,14 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Languages } from 'lucide-react';
 
+type Locale = 'en' | 'cs';
+
 export function LanguageToggle() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
 
-  const toggleLanguage = (newLocale: string) => {
+  const toggleLanguage = (newLocale: Locale) => {
     router.replace(pathname, { locale: newLocale });
   };
 
