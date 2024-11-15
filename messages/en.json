@@ -117,5 +117,26 @@
       "success": "Success Rate",
       "experience": "Years Experience"
     }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question or want to work together? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "message": "Message",
+      "messagePlaceholder": "Type your message here...",
+      "submit": "Send Message"
+    },
+    "success": "Thank you for your message. We'll get back to you soon!"
   }
 }

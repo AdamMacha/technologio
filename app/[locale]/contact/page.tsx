@@ -47,14 +47,14 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'email',
-      value: 'contact@technologio.com',
-      href: 'mailto:contact@technologio.com',
+      value: 'macha.adam@icloud.com',
+      href: 'mailto:macha.adam@icloud.com',
     },
     {
       icon: Phone,
       label: 'phone',
-      value: '+420 123 456 789',
-      href: 'tel:+420123456789',
+      value: '+420 773 022 246',
+      href: 'tel:+420773022246',
     },
     {
       icon: MapPin,

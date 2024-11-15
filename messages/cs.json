@@ -117,5 +117,26 @@
       "success": "Úspěšnost",
       "experience": "Let zkušeností"
     }
+  },
+  "Contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Máte dotaz nebo chcete spolupracovat? Rádi od vás uslyšíme. Pošlete nám zprávu a my se vám co nejdříve ozveme.",
+    "info": {
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa"
+    },
+    "form": {
+      "name": "Jméno",
+      "namePlaceholder": "Zadejte své jméno",
+      "email": "Email",
+      "emailPlaceholder": "Zadejte svůj email",
+      "subject": "Předmět",
+      "subjectPlaceholder": "Čeho se to týká?",
+      "message": "Zpráva",
+      "messagePlaceholder": "Napište svou zprávu zde...",
+      "submit": "Odeslat zprávu"
+    },
+    "success": "Děkujeme za vaši zprávu. Brzy se vám ozveme!"
   }
 }
