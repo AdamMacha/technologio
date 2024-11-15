@@ -10,11 +10,11 @@ export function Services() {
 
   const services = [
     { icon: Globe, title: 'web', color: 'text-blue-500' },
-    { icon: Code, title: 'app', color: 'text-purple-500' },
+    { icon: Code, title: 'mobile', color: 'text-purple-500' },
     { icon: Smartphone, title: 'mobile', color: 'text-green-500' },
-    { icon: Search, title: 'seo', color: 'text-yellow-500' },
-    { icon: Bitcoin, title: 'crypto', color: 'text-orange-500' },
-    { icon: Palette, title: 'design', color: 'text-pink-500' },
+    { icon: Search, title: 'seo', color: 'text-orange-500' },
+    { icon: Bitcoin, title: 'blockchain', color: 'text-yellow-500' },
+    { icon: Palette, title: 'design', color: 'text-pink-500' }
   ];
 
   return (
@@ -53,8 +53,8 @@ export function Services() {
                   <div className={`${service.color} mb-4`}>
                     <service.icon className="h-8 w-8" />
                   </div>
-                  <CardTitle>{t(`${service.title}.title`)}</CardTitle>
-                  <CardDescription>{t(`${service.title}.description`)}</CardDescription>
+                  <CardTitle>{t(`services.${service.title}.title`)}</CardTitle>
+                  <CardDescription>{t(`services.${service.title}.description`)}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

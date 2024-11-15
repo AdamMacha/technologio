@@ -1,17 +1,20 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { CheckCircle2 } from 'lucide-react';
+import Image from 'next/image';
 
 export function Features() {
+  const t = useTranslations('Features');
+
   const features = [
-    'Modern Technologies',
-    'Responsive Design',
-    'Performance Optimization',
-    'Security First',
-    'SEO Friendly',
-    'Custom Solutions',
+    'development',
+    'design',
+    'performance',
+    'security',
+    'seo',
+    'solutions',
   ];
 
   return (
@@ -42,10 +45,10 @@ export function Features() {
             >
               <div>
                 <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-                  Why Choose Technologio?
+                  {t('title')}
                 </h2>
                 <p className="text-muted-foreground text-lg">
-                  We combine expertise with innovation to deliver exceptional digital solutions.
+                  {t('subtitle')}
                 </p>
               </div>
               <ul className="space-y-4">
@@ -59,7 +62,7 @@ export function Features() {
                     className="flex items-center gap-3"
                   >
                     <CheckCircle2 className="h-6 w-6 text-primary" />
-                    <span className="text-lg">{feature}</span>
+                    <span className="text-lg">{t(`features.${feature}`)}</span>
                   </motion.li>
                 ))}
               </ul>

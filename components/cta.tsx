@@ -1,10 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function CTA() {
+  const t = useTranslations('CTA');
+
   return (
     <section className="py-24 bg-muted">
       <div className="container">
@@ -15,15 +18,15 @@ export function CTA() {
           className="relative isolate overflow-hidden bg-gradient-to-b from-primary/20 to-primary/5 px-6 py-24 text-center shadow-2xl rounded-3xl"
         >
           <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
-            Ready to Transform Your Digital Presence?
+            {t('title')}
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-muted-foreground">
-            Let's discuss how we can help you achieve your goals with our comprehensive digital solutions.
+            {t('subtitle')}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Button size="lg" asChild>
               <a href="/contact">
-                Get Started
+                {t('button')}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </Button>

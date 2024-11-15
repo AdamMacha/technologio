@@ -3,6 +3,7 @@ import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { Providers } from '@/components/providers';
 import { Navigation } from '@/components/navigation';
 import { Footer } from '@/components/footer';
+import { Toaster } from 'sonner';
 import '../globals.css';
 
 const inter = Inter({ subsets: ['latin', 'latin-ext'] });
@@ -26,6 +27,7 @@ export default function RootLayout({
               <main className="flex-1">{children}</main>
               <Footer />
             </div>
+            <Toaster />
           </Providers>
         </NextIntlClientProvider>
       </body>

@@ -1,77 +1,121 @@
 {
-  "Hero": {
-    "title": "Vytváříme digitální budoucnost",
-    "subtitle": "Specializujeme se na vývoj webových a mobilních aplikací, SEO optimalizaci a blockchain technologie. Přeměníme vaše nápady v realitu.",
-    "contact": "Kontaktujte nás",
-    "services": "Naše služby"
-  },
   "Navigation": {
     "home": "Domů",
-    "services": "Služby",
     "about": "O nás",
-    "contact": "Kontakt"
+    "services": "Služby",
+    "contact": "Kontakt",
+    "blog": "Blog"
+  },
+  "Hero": {
+    "badge": "Inovativní řešení",
+    "title": "Digitální transformace pro váš byznys",
+    "subtitle": "Vytváříme špičková digitální řešení, která pohánějí váš úspěch v moderním světě technologií.",
+    "contact": "Kontaktujte nás",
+    "services": "Naše služby",
+    "feature1": "Vývoj webu",
+    "feature2": "Mobilní aplikace",
+    "feature3": "Globální dosah"
+  },
+  "Features": {
+    "title": "Proč si vybrat nás",
+    "subtitle": "Kombinujeme odbornost s inovací pro poskytování výjimečných digitálních řešení.",
+    "features": {
+      "development": "Moderní vývojový stack",
+      "design": "Design zaměřený na uživatele",
+      "performance": "Optimalizace výkonu",
+      "security": "Podniková bezpečnost",
+      "seo": "SEO best practices",
+      "solutions": "Řešení na míru"
+    }
   },
   "Services": {
-    "title": "Naše služby",
-    "subtitle": "Komplexní řešení pro váš digitální úspěch",
-    "web": {
-      "title": "Vývoj webových stránek",
-      "description": "Moderní a responzivní webové stránky šité na míru vašim potřebám"
+    "title": "Naše Služby",
+    "subtitle": "Komplexní digitální řešení přizpůsobená vašim potřebám",
+    "services": {
+      "web": {
+        "title": "Vývoj Webů",
+        "description": "Vlastní webová řešení postavená na moderních technologiích",
+        "feature1": "Responzivní Design",
+        "feature2": "Optimalizace Výkonu",
+        "feature3": "Implementace Zabezpečení"
+      },
+      "app": {
+        "title": "Vývoj Aplikací",
+        "description": "Škálovatelné aplikace pro vaše podnikání",
+        "feature1": "Vlastní Architektura",
+        "feature2": "API Integrace",
+        "feature3": "Cloud Nasazení"
+      },
+      "mobile": {
+        "title": "Mobilní Vývoj",
+        "description": "Nativní a multiplatformní mobilní aplikace",
+        "feature1": "iOS & Android Aplikace",
+        "feature2": "Push Notifikace",
+        "feature3": "Offline Funkcionalita"
+      },
+      "seo": {
+        "title": "SEO Optimalizace",
+        "description": "Zlepšete svou online viditelnost a hodnocení",
+        "feature1": "Technické SEO",
+        "feature2": "Obsahová Strategie",
+        "feature3": "Výkonnostní Analytika"
+      },
+      "blockchain": {
+        "title": "Blockchain Řešení",
+        "description": "Bezpečné a transparentní blockchain implementace",
+        "feature1": "Chytré Kontrakty",
+        "feature2": "DeFi Aplikace",
+        "feature3": "NFT Platformy"
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "Krásné a intuitivní uživatelské rozhraní",
+        "feature1": "Uživatelský Výzkum",
+        "feature2": "Design Rozhraní",
+        "feature3": "Prototypování"
+      }
+    }
+  },
+  "CTA": {
+    "title": "Připraveni transformovat vaši digitální přítomnost?",
+    "subtitle": "Pojďme společně diskutovat o tom, jak můžeme pomoci dosáhnout vašich cílů.",
+    "button": "Začněte nyní"
+  },
+  "Footer": {
+    "company": "Technologio",
+    "description": "Vytváříme digitální řešení pro výzvy zítřka.",
+    "services": {
+      "title": "Služby",
+      "web": "Vývoj webů",
+      "apps": "Webové aplikace",
+      "mobile": "Mobilní aplikace",
+      "seo": "SEO Optimalizace",
+      "blockchain": "Blockchain řešení",
+      "design": "Grafický design"
     },
-    "app": {
-      "title": "Vývoj aplikací",
-      "description": "Výkonné webové a mobilní aplikace s důrazem na uživatelský zážitek"
+    "company_links": {
+      "title": "Společnost",
+      "about": "O nás",
+      "team": "Náš tým",
+      "careers": "Kariéra",
+      "contact": "Kontakt"
     },
-    "mobile": {
-      "title": "Mobilní aplikace",
-      "description": "Nativní a cross-platform mobilní aplikace pro iOS a Android"
-    },
-    "seo": {
-      "title": "SEO optimalizace",
-      "description": "Zvýšení viditelnosti vašeho webu ve vyhledávačích"
-    },
-    "crypto": {
-      "title": "Blockchain řešení",
-      "description": "Vývoj kryptoměn a smart kontraktů na míru"
-    },
-    "design": {
-      "title": "Grafický design",
-      "description": "Kreativní návrhy log a kompletní grafické služby"
+    "social": {
+      "title": "Sledujte nás"
     }
   },
   "About": {
-    "title": "O nás",
-    "subtitle": "Jsme tým nadšených profesionálů, kteří milují technologie a inovace",
+    "title": "O naší společnosti",
+    "subtitle": "Jsme vášnivý tým zaměřený na poskytování výjimečných digitálních řešení, která podporují růst a inovace v podnikání.",
     "story": {
       "title": "Náš příběh",
-      "content": "Technologio vzniklo s vizí poskytovat špičková digitální řešení, která pomáhají firmám růst a prosperovat v digitálním světě. Náš tým kombinuje kreativitu s technickou dokonalostí."
+      "content": "Založeni před více než desetiletím jsme vyrostli z malého startupu ve vedoucí digitální agenturu. Naše cesta je charakterizována neustálými inovacemi, neochvějným závazkem ke kvalitě a silnými partnerstvími s našimi klienty. Věříme v vytváření řešení, která nejen splňují dnešní potřeby, ale jsou připravena i na výzvy zítřka."
     },
     "stats": {
       "clients": "Spokojených klientů",
       "projects": "Dokončených projektů",
-      "success": "Úspěšnost projektů",
+      "success": "Úspěšnost",
       "experience": "Let zkušeností"
     }
-  },
-  "Contact": {
-    "title": "Kontaktujte nás",
-    "subtitle": "Jsme tu pro vás. Ozvěte se nám s jakýmkoliv dotazem.",
-    "info": {
-      "email": "Email",
-      "phone": "Telefon",
-      "address": "Adresa"
-    },
-    "form": {
-      "name": "Jméno",
-      "namePlaceholder": "Vaše jméno",
-      "email": "Email",
-      "emailPlaceholder": "vas@email.cz",
-      "subject": "Předmět",
-      "subjectPlaceholder": "Téma vaší zprávy",
-      "message": "Zpráva",
-      "messagePlaceholder": "Vaše zpráva...",
-      "submit": "Odeslat zprávu"
-    },
-    "success": "Zpráva byla úspěšně odeslána!"
   }
 }
