@@ -1,0 +1,77 @@
+{
+  "Hero": {
+    "title": "Vytváříme digitální budoucnost",
+    "subtitle": "Specializujeme se na vývoj webových a mobilních aplikací, SEO optimalizaci a blockchain technologie. Přeměníme vaše nápady v realitu.",
+    "contact": "Kontaktujte nás",
+    "services": "Naše služby"
+  },
+  "Navigation": {
+    "home": "Domů",
+    "services": "Služby",
+    "about": "O nás",
+    "contact": "Kontakt"
+  },
+  "Services": {
+    "title": "Naše služby",
+    "subtitle": "Komplexní řešení pro váš digitální úspěch",
+    "web": {
+      "title": "Vývoj webových stránek",
+      "description": "Moderní a responzivní webové stránky šité na míru vašim potřebám"
+    },
+    "app": {
+      "title": "Vývoj aplikací",
+      "description": "Výkonné webové a mobilní aplikace s důrazem na uživatelský zážitek"
+    },
+    "mobile": {
+      "title": "Mobilní aplikace",
+      "description": "Nativní a cross-platform mobilní aplikace pro iOS a Android"
+    },
+    "seo": {
+      "title": "SEO optimalizace",
+      "description": "Zvýšení viditelnosti vašeho webu ve vyhledávačích"
+    },
+    "crypto": {
+      "title": "Blockchain řešení",
+      "description": "Vývoj kryptoměn a smart kontraktů na míru"
+    },
+    "design": {
+      "title": "Grafický design",
+      "description": "Kreativní návrhy log a kompletní grafické služby"
+    }
+  },
+  "About": {
+    "title": "O nás",
+    "subtitle": "Jsme tým nadšených profesionálů, kteří milují technologie a inovace",
+    "story": {
+      "title": "Náš příběh",
+      "content": "Technologio vzniklo s vizí poskytovat špičková digitální řešení, která pomáhají firmám růst a prosperovat v digitálním světě. Náš tým kombinuje kreativitu s technickou dokonalostí."
+    },
+    "stats": {
+      "clients": "Spokojených klientů",
+      "projects": "Dokončených projektů",
+      "success": "Úspěšnost projektů",
+      "experience": "Let zkušeností"
+    }
+  },
+  "Contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Jsme tu pro vás. Ozvěte se nám s jakýmkoliv dotazem.",
+    "info": {
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Adresa"
+    },
+    "form": {
+      "name": "Jméno",
+      "namePlaceholder": "Vaše jméno",
+      "email": "Email",
+      "emailPlaceholder": "vas@email.cz",
+      "subject": "Předmět",
+      "subjectPlaceholder": "Téma vaší zprávy",
+      "message": "Zpráva",
+      "messagePlaceholder": "Vaše zpráva...",
+      "submit": "Odeslat zprávu"
+    },
+    "success": "Zpráva byla úspěšně odeslána!"
+  }
+}

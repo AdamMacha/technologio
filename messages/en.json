@@ -1,0 +1,77 @@
+{
+  "Hero": {
+    "title": "Creating Digital Future",
+    "subtitle": "We specialize in web and mobile app development, SEO optimization, and blockchain technologies. We turn your ideas into reality.",
+    "contact": "Contact Us",
+    "services": "Our Services"
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for your digital success",
+    "web": {
+      "title": "Website Development",
+      "description": "Modern and responsive websites tailored to your needs"
+    },
+    "app": {
+      "title": "App Development",
+      "description": "Powerful web applications with focus on user experience"
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform mobile apps for iOS and Android"
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "description": "Boost your website's visibility in search engines"
+    },
+    "crypto": {
+      "title": "Blockchain Solutions",
+      "description": "Custom cryptocurrency and smart contract development"
+    },
+    "design": {
+      "title": "Graphic Design",
+      "description": "Creative logo design and complete graphic services"
+    }
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "We are a team of passionate professionals who love technology and innovation",
+    "story": {
+      "title": "Our Story",
+      "content": "Technologio was founded with a vision to provide cutting-edge digital solutions that help businesses grow and thrive in the digital world. Our team combines creativity with technical excellence."
+    },
+    "stats": {
+      "clients": "Happy Clients",
+      "projects": "Projects Completed",
+      "success": "Success Rate",
+      "experience": "Years Experience"
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help. Get in touch with us for any inquiries.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's your message about?",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send Message"
+    },
+    "success": "Message sent successfully!"
+  }
+}
