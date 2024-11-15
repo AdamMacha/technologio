@@ -10,7 +10,7 @@ export function Services() {
 
   const services = [
     { icon: Globe, title: 'web', color: 'text-blue-500' },
-    { icon: Code, title: 'mobile', color: 'text-purple-500' },
+    { icon: Code, title: 'app', color: 'text-purple-500' },
     { icon: Smartphone, title: 'mobile', color: 'text-green-500' },
     { icon: Search, title: 'seo', color: 'text-orange-500' },
     { icon: Bitcoin, title: 'blockchain', color: 'text-yellow-500' },
