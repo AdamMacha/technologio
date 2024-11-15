@@ -109,7 +109,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="py-12 bg-muted/50">
+      {/* <section className="py-12 bg-muted/50">
         <div className="container">
           <div className="max-w-2xl mx-auto">
             <Form {...form}>
@@ -179,7 +179,7 @@ export default function Contact() {
             </Form>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
