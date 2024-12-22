@@ -47,8 +47,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'email',
-      value: 'macha.adam@icloud.com',
-      href: 'mailto:macha.adam@icloud.com',
+      value: 'info@technologio.eu',
+      href: 'mailto:info@technologio.eu',
     },
     {
       icon: Phone,
