@@ -1,28 +1,32 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { Link } from '@/navigation';
-import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, X } from 'lucide-react';
-import { LanguageToggle } from './language-toggle';
-import { ThemeToggle } from './theme-toggle';
+import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/navigation";
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu, X } from "lucide-react";
+import { LanguageToggle } from "./language-toggle";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Navigation() {
-  const t = useTranslations('Navigation');
+  const t = useTranslations("Navigation");
   const [isOpen, setIsOpen] = useState(false);
 
   const navigation = [
-    { name: t('home'), href: '/' },
-    { name: t('services'), href: '/services' },
-    { name: t('about'), href: '/about' },
-    { name: t('contact'), href: '/contact' },
+    { name: t("home"), href: "/" },
+    { name: t("services"), href: "/services" },
+    { name: t("projects"), href: "/projects" },
+    { name: t("about"), href: "/about" },
+    { name: t("contact"), href: "/contact" },
   ];
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 backdrop-blur-lg border-b">
-      <nav className="flex items-center justify-between p-6 lg:px-8 mx-auto max-w-7xl" aria-label="Global">
+      <nav
+        className="flex items-center justify-between p-6 lg:px-8 mx-auto max-w-7xl"
+        aria-label="Global"
+      >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 text-2xl font-bold">
             Technologio

@@ -4,7 +4,8 @@
     "about": "O nás",
     "services": "Služby",
     "contact": "Kontakt",
-    "blog": "Blog"
+    "blog": "Blog",
+    "projects": "Naše práce"
   },
   "Hero": {
     "badge": "Inovativní řešení",
@@ -138,5 +139,24 @@
       "submit": "Odeslat zprávu"
     },
     "success": "Děkujeme za vaši zprávu. Brzy se vám ozveme!"
+  },
+  "Projects": {
+    "title": "Naše práce",
+    "subtitle": "Podívejte se na některé z našich nejúspěšnějších projektů, které jsme realizovali pro naše klienty.",
+    "viewProject": "Zobrazit projekt",
+    "projects": {
+      "smarthome": {
+        "description": "Komplexní a responzivní webová stránka pro služby hodinového manžela"
+      },
+      "ecotrack": {
+        "description": "Moderní webová stránka pro spávu a prezentaci penzionu"
+      },
+      "financeflow": {
+        "description": "Nadčasová webová aplikace určená k usnadnění prodeje nákladních kontejnerů"
+      },
+      "solana": {
+        "description": "Vlastní řešení vytvoření kryptoměny na blockchainu Solana + tématická webová stránka na zakázku"
+      }
+    }
   }
 }

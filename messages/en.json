@@ -4,7 +4,8 @@
     "about": "About",
     "services": "Services",
     "contact": "Contact",
-    "blog": "Blog"
+    "blog": "Blog",
+    "projects": "Our Work"
   },
   "Hero": {
     "badge": "Innovative Solutions",
@@ -138,5 +139,21 @@
       "submit": "Send Message"
     },
     "success": "Thank you for your message. We'll get back to you soon!"
+  },
+  "Projects": {
+    "title": "Our Work",
+    "subtitle": "Take a look at some of our most successful projects we've delivered for our clients.",
+    "viewProject": "View Project",
+    "projects": {
+      "smarthome": {
+        "description": "Comprehensive smart home management platform with intuitive controls and advanced automation."
+      },
+      "ecotrack": {
+        "description": "Environmental impact tracking application using artificial intelligence for data analysis."
+      },
+      "financeflow": {
+        "description": "Modern financial platform leveraging blockchain technology for secure and efficient transactions."
+      }
+    }
   }
 }
