@@ -146,13 +146,16 @@
     "viewProject": "View Project",
     "projects": {
       "smarthome": {
-        "description": "Comprehensive smart home management platform with intuitive controls and advanced automation."
+        "description": "Comprehensive and responsive website"
       },
       "ecotrack": {
-        "description": "Environmental impact tracking application using artificial intelligence for data analysis."
+        "description": "Modern web app for pension management"
       },
       "financeflow": {
-        "description": "Modern financial platform leveraging blockchain technology for secure and efficient transactions."
+        "description": "Web marketplace platform for selling ship containers"
+      },
+      "solana": {
+        "description": "Blockchain-based crypto token on Solana + website"
       }
     }
   }
