@@ -114,8 +114,6 @@
     },
     "stats": {
       "clients": "Happy Clients",
-      "projects": "Projects Completed",
-      "success": "Success Rate",
       "experience": "Years Experience"
     }
   },

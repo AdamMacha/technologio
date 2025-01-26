@@ -107,15 +107,13 @@
   },
   "About": {
     "title": "O naší společnosti",
-    "subtitle": "Jsme vášnivý tým zaměřený na poskytování výjimečných digitálních řešení, která podporují růst a inovace v podnikání.",
+    "subtitle": "Jsme vášnivá dvojice programátorů, zaměřená na poskytování výjimečných digitálních řešení, která podporují růst a inovace v podnikání.",
     "story": {
       "title": "Náš příběh",
-      "content": "Založeni před více než desetiletím jsme vyrostli z malého startupu ve vedoucí digitální agenturu. Naše cesta je charakterizována neustálými inovacemi, neochvějným závazkem ke kvalitě a silnými partnerstvími s našimi klienty. Věříme v vytváření řešení, která nejen splňují dnešní potřeby, ale jsou připravena i na výzvy zítřka."
+      "content": "Naše cesta je charakterizována neustálými inovacemi, neochvějným závazkem ke kvalitě a silnými partnerstvími s našimi klienty. Věříme v vytváření řešení, která nejen splňují dnešní potřeby, ale jsou připravena i na výzvy zítřka."
     },
     "stats": {
       "clients": "Spokojených klientů",
-      "projects": "Dokončených projektů",
-      "success": "Úspěšnost",
       "experience": "Let zkušeností"
     }
   },

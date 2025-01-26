@@ -1,18 +1,16 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { Users, Trophy, Target, Clock } from 'lucide-react';
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Users, Trophy, Target, Clock } from "lucide-react";
 
 export default function About() {
-  const t = useTranslations('About');
+  const t = useTranslations("About");
 
   const stats = [
-    { icon: Users, label: 'clients', value: '100+' },
-    { icon: Trophy, label: 'projects', value: '250+' },
-    { icon: Target, label: 'success', value: '98%' },
-    { icon: Clock, label: 'experience', value: '10+' },
+    { icon: Users, label: "clients", value: "50+" },
+    { icon: Clock, label: "experience", value: "10+" },
   ];
 
   return (
@@ -25,11 +23,9 @@ export default function About() {
             className="max-w-3xl mx-auto text-center"
           >
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6">
-              {t('title')}
+              {t("title")}
             </h1>
-            <p className="text-lg text-muted-foreground">
-              {t('subtitle')}
-            </p>
+            <p className="text-lg text-muted-foreground">{t("subtitle")}</p>
           </motion.div>
         </div>
       </section>
@@ -56,8 +52,8 @@ export default function About() {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              <h2 className="text-3xl font-bold">{t('story.title')}</h2>
-              <p className="text-muted-foreground">{t('story.content')}</p>
+              <h2 className="text-3xl font-bold">{t("story.title")}</h2>
+              <p className="text-muted-foreground">{t("story.content")}</p>
             </motion.div>
           </div>
         </div>
@@ -65,7 +61,7 @@ export default function About() {
 
       <section className="py-12 bg-muted/50">
         <div className="container">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 items-center">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
